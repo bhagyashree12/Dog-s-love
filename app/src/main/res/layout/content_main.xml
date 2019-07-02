@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E9C27B0"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <ImageView
+        android:id="@+id/dog"
+        android:layout_width="match_parent"
+        android:layout_height="268dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/doggie" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"
+        android:fontFamily="cursive"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:text="Happiness is a Warm Puppy!!"
+        android:textColor="#673AB7"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tetx1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dog"
+        android:layout_marginTop="10dp"
+        android:fontFamily="cursive"
+        android:gravity="center_horizontal"
+        android:text="Secret ways your dog says I love you!!"
+        android:textColor="#673AB7"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_above="@+id/textView2"
+        android:layout_below="@+id/tetx1"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginBottom="7dp"
+        android:fontFamily="cursive"
+        android:paddingTop="10dp"
+        android:text="Staring directly into your eyes."
+        android:textColor="#673AB7"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="249dp"
+        android:fontFamily="cursive"
+        android:paddingTop="10dp"
+
+        android:text="Yawning when you yawn"
+        android:textColor="#673AB7"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="193dp"
+        android:fontFamily="cursive"
+        android:paddingTop="10dp"
+
+        android:text="Leaning on you"
+
+        android:textColor="#673AB7"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="136dp"
+        android:fontFamily="cursive"
+        android:paddingTop="10dp"
+
+        android:text="Cuddling with you after a meal"
+
+        android:textColor="#673AB7"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="69dp"
+        android:fontFamily="cursive"
+        android:paddingTop="10dp"
+
+        android:text="Lifting and wiggling eyebrows."
+
+        android:textColor="#673AB7"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>
